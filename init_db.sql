@@ -1,0 +1,4 @@
+CREATE
+DATABASE backend;
+CREATE
+DATABASE tests;

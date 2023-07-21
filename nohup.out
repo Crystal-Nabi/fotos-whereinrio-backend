@@ -1,0 +1,73 @@
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6549]
+WARNING:  ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
+INFO:     Started server process [10914]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57444 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57428 - "OPTIONS /pictures HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57448 - "OPTIONS /pictures HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57444 - "OPTIONS /users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57444 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57448 - "GET /users/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:57428 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57444 - "OPTIONS /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57458 - "GET /users/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:57458 - "OPTIONS /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57428 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57458 - "OPTIONS /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57458 - "POST /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57444 - "OPTIONS /login/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57444 - "POST /login/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57444 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57448 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57444 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57448 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57458 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57458 - "OPTIONS /users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57444 - "GET /users HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57448 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57444 - "OPTIONS /users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57448 - "GET /users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57444 - "GET /users HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57444 - "GET /users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34084 - "OPTIONS /pictures/delete/fotos-originais/test%20%282%29.jpeg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34084 - "DELETE /pictures/delete/fotos-originais/test%20%282%29.jpeg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34084 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:34084 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36068 - "OPTIONS /pictures/upload/fotos-originais HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36068 - "POST /pictures/upload/fotos-originais HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36068 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:36068 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36068 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:36068 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36068 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:36068 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36068 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:36068 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36068 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:36068 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47900 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47944 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47926 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47900 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47944 - "GET /users HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47900 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47926 - "GET /users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47926 - "GET /users HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47944 - "GET /users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47926 - "GET /users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48848 - "POST /pictures/upload/fotos-originais HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48848 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48848 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48574 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48574 - "GET /pictures HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48574 - "GET /pictures/ HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10914]
